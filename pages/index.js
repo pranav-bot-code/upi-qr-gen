@@ -9,7 +9,7 @@ export default function Home() {
   const { register, handleSubmit } = useForm();
   function handleRequest(dataform) {
     console.log(dataform)
-    if(dataform.amount = "") dataform.amount = undefined
+    if(dataform.amount === "") dataform.amount = undefined
     setData(dataform);
   }
   return (
